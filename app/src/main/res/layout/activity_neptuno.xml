@@ -22,4 +22,33 @@
         android:text="Regresar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="231dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="106dp"
+        android:text="Neptuno"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTierra"
+        android:layout_width="342dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="106dp"
+        android:text="Neptuno es el planeta más alejado del Sol y el más ventoso del Sistema Solar, con tormentas que superan los 2,000 km/h. Su color azul intenso se debe al metano en su atmósfera, y cuenta con una luna gigante llamada Tritón, que podría tener actividad geológica."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

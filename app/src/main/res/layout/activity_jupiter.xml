@@ -22,4 +22,34 @@
         android:text="Regresar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="231dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="106dp"
+        android:text="Júpiter"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTierra"
+        android:layout_width="395dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="106dp"
+        android:text="Júpiter es el planeta más grande del Sistema Solar y está compuesto principalmente de hidrógeno y helio. Tiene una gran mancha roja, que es una tormenta gigante activa por siglos, y más de 90 lunas, incluida Europa, que podría albergar un océano subterráneo."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,7 +24,7 @@
         android:layout_marginTop="502dp"
         android:layout_marginEnd="106dp"
         android:layout_marginBottom="136dp"
-        android:text="Entrar a la galaxia"
+        android:text="Entrar al sistema solar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

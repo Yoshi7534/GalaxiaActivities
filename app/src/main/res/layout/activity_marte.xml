@@ -22,4 +22,33 @@
         android:text="Regresar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="231dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="106dp"
+        android:text="Marte"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTierra"
+        android:layout_width="342dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="106dp"
+        android:text="Marte, el Planeta Rojo, debe su color al óxido de hierro en su superficie. Es un mundo frío y seco con enormes volcanes y cañones. Se cree que en el pasado tuvo agua líquida, lo que lo convierte en un candidato para la búsqueda de vida."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

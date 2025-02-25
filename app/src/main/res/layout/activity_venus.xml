@@ -22,4 +22,33 @@
         android:text="Regresar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="231dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="106dp"
+        android:text="Venus"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTierra"
+        android:layout_width="342dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="106dp"
+        android:text="Venus es el planeta más caliente del Sistema Solar debido a su espesa atmósfera de dióxido de carbono, que atrapa el calor en un efecto invernadero descontrolado. Su cielo está cubierto de nubes de ácido sulfúrico y su superficie es un infierno volcánico."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

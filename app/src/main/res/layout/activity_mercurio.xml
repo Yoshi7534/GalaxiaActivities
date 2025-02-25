@@ -9,17 +9,48 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="414dp"
-        android:layout_height="731dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/bottom_sheet_behavior"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mercurio" />
+        app:srcCompat="@drawable/mercury" />
+
     <Button
         android:id="@+id/btnRegresar"
         android:layout_width="115dp"
         android:layout_height="50dp"
         android:text="Regresar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="231dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="16dp"
+        android:text="Mercurio"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTierra"
+        android:layout_width="222dp"
+        android:layout_height="313dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="189dp"
+        android:text="Mercurio es el planeta más pequeño y el más cercano al Sol. Debido a su fina atmósfera, experimenta temperaturas extremas, con días abrasadores y noches heladas. Su superficie está cubierta de cráteres debido a impactos de asteroides."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
