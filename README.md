@@ -42,6 +42,4 @@ Al iniciar la aplicación, debería aparecer la pantalla principal con opciones 
 
 Al hacer clic en un planeta, se debería abrir una nueva actividad con su descripción.
 
-En la actividad de Mercurio, el botón de fragmento debería mostrar información adicional.
-
 La navegación entre actividades debe ser fluida sin cierres inesperados.
